@@ -1,0 +1,181 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #60CEE0
+}
+    
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }
+
+/* top bar */
+
+.top-bar {
+    background-color: #5A8CED;
+    color: #60CEE0;
+    display: inline-flex;
+    width: 100%;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+ul a {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+ul li {
+    padding-top: 0.5rem;
+}
+
+#button {
+    border-radius: 5px;
+    background-color: #60CEE0;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 820px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* intro */
+ .intro {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url(https://images.unsplash.com/photo-1641597890926-4246758a2b5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+ }
+
+ .intro h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 12%;
+ }
+
+/* summary */
+
+.sumamry {
+    margin-top: 50rem;
+}
+
+
+.summary h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #5A8CED;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.summary p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: whitesmoke;
+    padding-left: 1rem;
+}
+    
+/* photos */
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+  
+.photos-item {
+    margin: 20px 1rem;
+  }
+  
+.photos-item .thumbnail {
+    width: 360px;
+    min-height: 244px;
+    border: 2px solid GhostWhite;
+    border-radius: 4px;
+    object-fit: fill;
+  }
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
+    .photos-item .thumbnail {
+      width: 95%;
+    }
+}
+
+/* testimonial */
+
+.testimonial {
+    background-color: #5AEDAF;
+    height: 20rem;
+    width: 100%;
+}
+
+.testimonial h1 {
+    font-style: italic;
+    width: 90%;
+    margin-left: 1rem;
+}
+
+.testimonial p {
+    margin-left: 1rem;
+    width: 90%;
+}
+
+/* meetup */
+
+.meetup h1 {
+    font-size: 2rem;
+    color: #5A8CED;
+    text-align: center;
+}
+
+.meetup img {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* bottom bar */
+
+.bottom-bar {
+    background-color: #5A8CED;
+    color: #60CEE0;
+    display: inline-flex;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+
+ul a {
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
